@@ -58,8 +58,20 @@
 
 ---
 
-## 💬 연구실 방명록 & 피드백
-> 기술적 의견, 연구 협업 제안, 방명록 글을 자유롭게 남겨주세요.
+## 📌 연구 철학 (Engineering Philosophy)
+> *"구조 계산의 작은 오차는 안전과 인명 피해로 직결됩니다. '추정'이 아닌 명확한 공학적 기준과 검증된 데이터를 근거로 설계하고 유지관리합니다."*
+
+---
+
+## 📬 방명록 및 기술 교류 / 문의 (간편 접수)
+> 연구 협업, 기술 자문 문의, 사이트 방문 소감을 자유롭게 남겨주세요. (로그인 없이 바로 작성하실 수 있습니다.)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdm8utDvKiTUiGMIrL98XJRjxfXtlojDVRfsiEhHTHtIEwIQg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border: 1px solid #e1e4e8; border-radius: 8px; background: #fff;">로드 중…</iframe>
+
+---
+
+## 💬 공개 토론 및 피드백 (GitHub 연동)
+> 공개적인 기술 질문, 토론, 피드백은 GitHub 계정으로 아래에 남겨주실 수 있습니다.
 
 <script src="https://giscus.app/client.js"
         data-repo="b23041/b23041.github.io"
@@ -76,11 +88,6 @@
         crossorigin="anonymous"
         async>
 </script>
-
----
-
-## 📌 연구 철학 (Engineering Philosophy)
-> *"구조 계산의 작은 오차는 안전과 인명 피해로 직결됩니다. '추정'이 아닌 명확한 공학적 기준과 검증된 데이터를 근거로 설계하고 유지관리합니다."*
 
 ---
 
