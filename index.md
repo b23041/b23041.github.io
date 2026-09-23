@@ -58,6 +58,27 @@
 
 ---
 
+## 💬 연구실 방명록 & 피드백
+> 기술적 의견, 연구 협업 제안, 방명록 글을 자유롭게 남겨주세요.
+
+<script src="https://giscus.app/client.js"
+        data-repo="b23041/b23041.github.io"
+        data-repo-id="R_kgDOUmwSfg"
+        data-category="General"
+        data-category-id="DIC_kwDOUmwSfs4DGNhP"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
+
+---
+
 ## 📌 연구 철학 (Engineering Philosophy)
 > *"구조 계산의 작은 오차는 안전과 인명 피해로 직결됩니다. '추정'이 아닌 명확한 공학적 기준과 검증된 데이터를 근거로 설계하고 유지관리합니다."*
 
