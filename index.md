@@ -66,3 +66,9 @@
 <p align="center" style="font-size: 12px; color: #8c959f; margin-top: 40px;">
   © 2026 smart-civil-maintain.com · Built with GitHub Pages & Jekyll
 </p>
+
+<style>
+  footer, .site-footer {
+    display: none !important;
+  }
+</style>
