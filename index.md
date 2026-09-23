@@ -66,12 +66,16 @@
 ## 📬 방명록 및 기술 교류 / 문의 (간편 접수)
 > 연구 협업, 기술 자문 문의, 사이트 방문 소감을 자유롭게 남겨주세요. (로그인 없이 바로 작성하실 수 있습니다.)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdm8utDvKiTUiGMIrL98XJRjxfXtlojDVRfsiEhHTHtIEwIQg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border: 1px solid #e1e4e8; border-radius: 8px; background: #fff;">로드 중…</iframe>
+<div style="margin: 20px 0;">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdm8utDvKiTUiGMIrL98XJRjxfXtlojDVRfsiEhHTHtIEwIQg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border: 1px solid #e1e4e8; border-radius: 8px; background: #fff;">로드 중…</iframe>
+</div>
 
 ---
 
-## 💬 공개 토론 및 피드백 (GitHub 연동)
-> 공개적인 기술 질문, 토론, 피드백은 GitHub 계정으로 아래에 남겨주실 수 있습니다.
+## 💬 연구실 방명록 & 피드백 (GitHub)
+> GitHub 계정으로 공개 토론 및 피드백 글을 남기실 수 있습니다.
+
+<div class="giscus" style="margin-top: 20px; min-height: 250px;"></div>
 
 <script src="https://giscus.app/client.js"
         data-repo="b23041/b23041.github.io"
@@ -82,8 +86,8 @@
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-input-position="top"
+        data-theme="light"
         data-lang="ko"
         crossorigin="anonymous"
         async>
