@@ -1,4 +1,4 @@
-# 🏗️ 스마트 토목 구조 유지관리
+# 🏗️ AI 토목 구조 유지관리
 > **데이터 기반 구조물 유지관리 및 설계 자동화 연구 아카이브**  
 > Civil Structural Engineering & Automated Maintenance Systems
 
