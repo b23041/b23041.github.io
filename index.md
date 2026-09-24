@@ -11,7 +11,7 @@
 
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
     <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.9); border-bottom: none;">
-      🏗️ AI 토목 구조 유지관리
+       AI 토목 구조 유지관리
     </h1>
     <p style="font-size: 16px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 6px rgba(0,0,0,0.9);">
       데이터 기반 구조물 유지관리 및 설계 자동화 연구 아카이브
