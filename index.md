@@ -7,7 +7,7 @@
     동영상을 지원하지 않는 브라우저입니다.
   </video>
 
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.25), rgba(16, 107, 85, 0.25)); z-index: 2;"></div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.15), rgba(16, 107, 85, 0.25)); z-index: 2;"></div>
 
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
     <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.9); border-bottom: none;">
