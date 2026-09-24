@@ -1,4 +1,4 @@
-<div style="position: relative; width: 100%; height: 480px; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
   
   <video autoplay loop muted playsinline preload="auto"
          style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%); object-fit: cover; z-index: 1;">
@@ -11,7 +11,7 @@
 
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
     <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.9); border-bottom: none;">
-      AI 구조물 유지관리
+      AI 토목 구조물 유지관리
     </h1>
     <p style="font-size: 16px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 6px rgba(0,0,0,0.9);">
       데이터 기반 구조물 유지관리 및 설계 자동화 연구 아카이브
