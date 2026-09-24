@@ -34,7 +34,9 @@
       기존 인프라 노후화에 대비한 데이터 기반 상태 평가 및 잔존 수명 예측.
     </p>
     <ul style="font-size: 13px; padding-left: 20px; color: #24292e;">
-      <li><b>광학 계측 균열 분석:</b> <a href="/crack-gauge/" style="color: #0366d6; font-weight: bold;">[균열폭 측정기 실행 ↗]</a></li>
+      <li style="margin-bottom: 8px;"><b>광학 계측 균열 분석:</b> <br>
+        <a href="/crack-gauge/" style="display: inline-block; margin-top: 6px; padding: 6px 14px; background-color: #0366d6; color: #ffffff; font-size: 14px; font-weight: bold; border-radius: 6px; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">▶ 균열폭 측정기 실행 ↗</a>
+      </li>
       <li>센서 계측 데이터 기반 거동 분석</li>
       <li>점검 자동화 프로세스 구축</li>
     </ul>
