@@ -1,4 +1,4 @@
-<div style="position: relative; width: 100%; height: 260px; overflow: hidden; border-radius: 12px; margin-bottom: 28px; box-shadow: 0 4px 15px rgba(0,0,0,0.12); background-color: #0b253a;">
+<div style="position: relative; width: 100%; height: 400px; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
   
   <video autoplay loop muted playsinline preload="auto"
          style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%); object-fit: cover; z-index: 1;">
@@ -10,13 +10,13 @@
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.65), rgba(16, 107, 85, 0.65)); z-index: 2;"></div>
 
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
-    <h1 style="font-size: 28px; font-weight: 700; margin: 0 0 10px 0; color: #ffffff; text-shadow: 0 2px 6px rgba(0,0,0,0.6); border-bottom: none;">
+    <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 6px rgba(0,0,0,0.6); border-bottom: none;">
       🏗️ AI 토목 구조 유지관리
     </h1>
-    <p style="font-size: 15px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 4px rgba(0,0,0,0.6);">
+    <p style="font-size: 16px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 4px rgba(0,0,0,0.6);">
       데이터 기반 구조물 유지관리 및 설계 자동화 연구 아카이브
     </p>
-    <p style="font-size: 12px; margin: 6px 0 0 0; color: #c9d1d9; font-weight: 300; letter-spacing: 0.5px;">
+    <p style="font-size: 13px; margin: 8px 0 0 0; color: #c9d1d9; font-weight: 300; letter-spacing: 0.5px;">
       Civil Structural Engineering & Automated Maintenance Systems
     </p>
   </div>
@@ -120,7 +120,21 @@
 </p>
 
 <style>
+  /* 푸터 숨김 */
   footer, .site-footer {
     display: none !important;
+  }
+  
+  /* 상단 기본 테마 헤더(파란-초록) 높이 대폭 축소 */
+  .page-header {
+    padding: 1.5rem 1rem !important; /* 위아래 여백을 확 줄임 */
+  }
+  .project-name {
+    font-size: 1.8rem !important; /* 메인 제목 크기 약간 축소 */
+    margin-bottom: 0.3rem !important;
+  }
+  .project-tagline {
+    font-size: 1rem !important; /* 부제목 크기 축소 */
+    margin-bottom: 0 !important;
   }
 </style>
