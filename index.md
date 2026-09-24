@@ -7,11 +7,11 @@
     동영상을 지원하지 않는 브라우저입니다.
   </video>
 
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.15), rgba(16, 107, 85, 0.25)); z-index: 2;"></div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.15), rgba(16, 107, 85, 0.15)); z-index: 2;"></div>
 
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
     <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.9); border-bottom: none;">
-       AI 구조물 유지관리
+      🏗️ AI 토목 구조 유지관리
     </h1>
     <p style="font-size: 16px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 6px rgba(0,0,0,0.9);">
       데이터 기반 구조물 유지관리 및 설계 자동화 연구 아카이브
@@ -125,9 +125,9 @@
     display: none !important;
   }
   
-  /* 페이지 전체 본문 폭을 기존보다 약 1.5배 넓게 조정 */
+  /* 페이지 전체 본문 폭을 기존보다 20% 더 넓게(1320px) 조정 */
   .main-content {
-    max-width: 1100px !important; 
+    max-width: 1320px !important; 
   }
   
   /* 상단 기본 테마 헤더(파란-초록) 높이 대폭 축소 */
