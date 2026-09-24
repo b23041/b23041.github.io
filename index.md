@@ -1,19 +1,21 @@
 <!-- 동영상 배경 헤더 영역 시작 -->
-<div style="position: relative; width: 100%; height: 260px; overflow: hidden; border-radius: 12px; margin-bottom: 28px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);">
+<div style="position: relative; width: 100%; height: 260px; overflow: hidden; border-radius: 12px; margin-bottom: 28px; box-shadow: 0 4px 15px rgba(0,0,0,0.12); background-color: #0b253a;">
   
-  <!-- 배경 동영상 (자동재생, 반복, 음소거, 인라인 재생) -->
-  <video autoplay loop muted playsinline 
+  <!-- 배경 동영상 -->
+  <video autoplay loop muted playsinline preload="auto"
          style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%); object-fit: cover; z-index: 1;">
-    <source src="/assets/videos/maintenance_bg.mp4" type="video/mp4">
+    <!-- Jekyll 환경에 가장 안전한 경로 2가지 병기 -->
+    <source src="{{ '/assets/videos/maintenance_bg.mp4' | relative_url }}" type="video/mp4">
+    <source src="./assets/videos/maintenance_bg.mp4" type="video/mp4">
     동영상을 지원하지 않는 브라우저입니다.
   </video>
 
-  <!-- 가독성을 위한 반투명 오버레이 (청록색 그라데이션) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.72), rgba(16, 107, 85, 0.72)); z-index: 2;"></div>
+  <!-- 가독성을 위한 반투명 오버레이 -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.65), rgba(16, 107, 85, 0.65)); z-index: 2;"></div>
 
   <!-- 타이틀 및 부제 텍스트 -->
   <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
-    <h1 style="font-size: 30px; font-weight: 700; margin: 0 0 10px 0; color: #ffffff; text-shadow: 0 2px 6px rgba(0,0,0,0.6); border-bottom: none;">
+    <h1 style="font-size: 28px; font-weight: 700; margin: 0 0 10px 0; color: #ffffff; text-shadow: 0 2px 6px rgba(0,0,0,0.6); border-bottom: none;">
       🏗️ AI 토목 구조 유지관리
     </h1>
     <p style="font-size: 15px; margin: 0; color: #f0f6fc; font-weight: 500; text-shadow: 0 2px 4px rgba(0,0,0,0.6);">
