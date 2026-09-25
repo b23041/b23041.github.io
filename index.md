@@ -1,7 +1,7 @@
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
   
   <video autoplay loop muted playsinline preload="auto"
-         style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%, -50%); object-fit: cover; z-index: 1;">
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
     <source src="{{ '/assets/videos/maintain_mv.mp4' | relative_url }}" type="video/mp4">
     <source src="./assets/videos/maintain_mv.mp4" type="video/mp4">
     동영상을 지원하지 않는 브라우저입니다.
@@ -9,7 +9,7 @@
 
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(14, 65, 102, 0.15), rgba(16, 107, 85, 0.15)); z-index: 2;"></div>
 
-  <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #ffffff; padding: 0 20px;">
+  <div style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; text-align: center; color: #ffffff; padding: 0 20px 40px 20px;">
     <h1 style="font-size: 32px; font-weight: 700; margin: 0 0 12px 0; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.9); border-bottom: none;">
       AI 토목 구조물 유지관리
     </h1>
