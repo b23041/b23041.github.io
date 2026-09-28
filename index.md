@@ -59,6 +59,11 @@
     <p style="font-size: 14px; color: #586069; line-height: 1.6;">
       철근콘크리트, 강구조 및 신소재(비강재, 유리 등) 구조 거동 검토.
     </p>
+    <div style="margin: 10px 0 14px 0;">
+      <a href="./docs/obsidian-gemini-guide.html" target="_blank" style="display: inline-block; background-color: #0d6efd; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px;">
+        ▶ 옵시디언 + 제미나이 ↗
+      </a>
+    </div>
     <ul style="font-size: 13px; padding-left: 20px; color: #24292e;">
       <li>KDS(국가건설기준) 개정 사항 및 적용성 검토</li>
       <li>국내외 학술 논문 및 실무 검증 자료 정리</li>
