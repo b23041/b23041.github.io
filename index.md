@@ -54,26 +54,25 @@
     </ul>
   </div>
 
-<div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 18px; background-color: #f8f9fa; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <h3 style="margin-top: 0; color: #6f42c1;">📐 구조 재료 및 기준 분석</h3>
-  <p style="font-size: 14px; color: #586069; line-height: 1.6;">
-    철근콘크리트, 강구조 및 신소재(비강재, 유리 등) 구조 거동 검토.
-  </p>
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 18px; background-color: #f8f9fa; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #6f42c1;">📐 구조 재료 및 기준 분석</h3>
+    <p style="font-size: 14px; color: #586069; line-height: 1.6;">
+      철근콘크리트, 강구조 및 신소재(비강재, 유리 등) 구조 거동 검토.
+    </p>
+    <ul style="font-size: 13px; padding-left: 20px; color: #24292e;">
+      <li style="margin-bottom: 12px;">
+        <strong>KDS(국가건설기준) 개정 사항 및 적용성 검토</strong>
+        <div style="margin-top: 8px;">
+          <a href="./docs/obsidian-gemini.html" target="_blank" style="display: inline-block; background-color: #0d6efd; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px;">
+            ▶ 옵시디언 + 제미나이 ↗
+          </a>
+        </div>
+      </li>
+      <li style="margin-bottom: 6px;">국내외 학술 논문 및 실무 검증 자료 정리</li>
+      <li>특수 구조물 해석 사례 연구</li>
+    </ul>
+  </div>
 
-  <ul style="font-size: 13px; padding-left: 20px; color: #24292e;">
-    <li style="margin-bottom: 12px;">
-      <!-- 아래 텍스트 양옆에 strong 태그를 추가했습니다 -->
-      <strong>KDS(국가건설기준) 개정 사항 및 적용성 검토</strong>
-      
-      <div style="margin-top: 8px;">
-        <a href="./docs/obsidian-gemini.html" target="_blank" style="display: inline-block; background-color: #0d6efd; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 13px;">
-          ▶ 옵시디언 + 제미나이 ↗
-        </a>
-      </div>
-    </li>
-    <li style="margin-bottom: 6px;">국내외 학술 논문 및 실무 검증 자료 정리</li>
-    <li>특수 구조물 해석 사례 연구</li>
-  </ul>
 </div>
 
 ---
