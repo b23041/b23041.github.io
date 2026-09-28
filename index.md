@@ -135,6 +135,11 @@
 </p>
 
 <style>
+  /* 표(Table) 폭 100% 꽉 차게 맞춤 추가 */
+  table {
+    width: 100% !important;
+  }
+
   /* 푸터 숨김 */
   footer, .site-footer {
     display: none !important;
