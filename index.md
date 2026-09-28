@@ -131,8 +131,11 @@
 </p>
 
 <style>
-  /* 표(Table) 폭 100% 꽉 차게 맞춤 추가 */
+  /* 깃허브 테마의 기본 표 스타일을 강제로 100%로 확장 */
+  .main-content table,
+  .markdown-body table,
   table {
+    display: table !important;
     width: 100% !important;
   }
 
@@ -141,21 +144,21 @@
     display: none !important;
   }
   
-  /* 페이지 전체 본문 폭을 기존보다 20% 더 넓게(1320px) 조정 */
+  /* 페이지 전체 본문 폭을 1320px로 넓게 조정 */
   .main-content {
     max-width: 1320px !important; 
   }
   
-  /* 상단 기본 테마 헤더(파란-초록) 높이 대폭 축소 */
+  /* 상단 헤더 높이 축소 */
   .page-header {
-    padding: 1.5rem 1rem !important; /* 위아래 여백을 확 줄임 */
+    padding: 1.5rem 1rem !important; 
   }
   .project-name {
-    font-size: 1.8rem !important; /* 메인 제목 크기 약간 축소 */
+    font-size: 1.8rem !important; 
     margin-bottom: 0.3rem !important;
   }
   .project-tagline {
-    font-size: 1rem !important; /* 부제목 크기 축소 */
+    font-size: 1rem !important; 
     margin-bottom: 0 !important;
   }
 </style>
