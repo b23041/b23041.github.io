@@ -36,7 +36,7 @@
     <ul style="font-size: 13px; padding-left: 20px; color: #24292e;">
       <li style="margin-bottom: 8px;"><b>간편 균열 측정앱:</b> <br>
         <a href="/crack-gauge/" style="display: inline-block; margin-top: 6px; padding: 6px 14px; background-color: #0366d6; color: #ffffff; font-size: 14px; font-weight: bold; border-radius: 6px; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">▶ 균열폭 측정기 실행 ↗</a>
-        <a href="/assets/images/sample_crack_image.jpg" download="균열측정_샘플사진.jpg" style="display: inline-block; margin-top: 8px; padding: 5px 12px; background-color: #2ea44f; color: #ffffff; font-size: 13px; font-weight: bold; border-radius: 6px; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.15);">📥 균열 샘플사진 다운로드</a>
+        <a href="/assets/images/01_crack_sample.jpg" download="균열측정_샘플사진.jpg" style="display: inline-block; margin-top: 8px; padding: 5px 12px; background-color: #2ea44f; color: #ffffff; font-size: 13px; font-weight: bold; border-radius: 6px; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.15);">📥 균열 샘플사진 다운로드</a>
       </li>
       <li>센서 계측 데이터 기반 거동 분석</li>
       <li>점검 자동화 프로세스 구축</li>
