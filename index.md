@@ -1,9 +1,15 @@
-<!-- 1. 상단 방문자 카운터 영역 (동영상 박스와 상단 헤더 사이) -->
+<!-- 1. 상단 방문자 카운터 영역 (캐시 무력화 스크립트 적용) -->
 <div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
-  <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" 
+  <img id="main-visitor-counter" 
        alt="Visitor Count" 
        style="height: 32px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
 </div>
+
+<script>
+  // 접속 시점의 밀리초 단위 시간값을 주소 끝에 강제로 붙여, 
+  // 브라우저가 매번 완전히 새로운 이미지로 인식하게 만들어 무조건 카운터 서버를 호출합니다.
+  document.getElementById('main-visitor-counter').src = "https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat&t=" + new Date().getTime();
+</script>
 
 <!-- 2. 동영상 배너 영역 -->
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
