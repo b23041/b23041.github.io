@@ -19,6 +19,12 @@
     <p style="font-size: 13px; margin: 8px 0 0 0; color: #c9d1d9; font-weight: 300; letter-spacing: 0.5px; text-shadow: 0 2px 5px rgba(0,0,0,0.9);">
       Civil Structural Engineering & Automated Maintenance Systems
     </p>
+
+    <!-- ★ 화면 표시용 누적 방문자 카운터 배지 ★ -->
+    <div style="margin-top: 15px;">
+      <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain.com&label=Visitor&color=0366d6&style=flat" alt="Visitor Count" />
+    </div>
+    
   </div>
 
 </div>
