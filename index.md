@@ -22,7 +22,7 @@
 
     <!-- ★ 화면 표시용 누적 방문자 카운터 배지 ★ -->
     <div style="margin-top: 15px;">
-      <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain.com&label=Visitor&color=0366d6&style=flat" alt="Visitor Count" />
+      <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" alt="Visitor Count" />
     </div>
     
   </div>
