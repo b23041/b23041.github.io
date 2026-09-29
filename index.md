@@ -1,3 +1,11 @@
+<!-- 1. 상단 방문자 카운터 영역 (동영상 박스와 상단 헤더 사이) -->
+<div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
+  <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" 
+       alt="Visitor Count" 
+       style="height: 28px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
+</div>
+
+<!-- 2. 동영상 배너 영역 -->
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
   
   <video autoplay loop muted playsinline preload="auto"
@@ -19,12 +27,7 @@
     <p style="font-size: 13px; margin: 8px 0 0 0; color: #c9d1d9; font-weight: 300; letter-spacing: 0.5px; text-shadow: 0 2px 5px rgba(0,0,0,0.9);">
       Civil Structural Engineering & Automated Maintenance Systems
     </p>
-
-    <!-- ★ 화면 표시용 누적 방문자 카운터 배지 ★ -->
-    <div style="margin-top: 15px;">
-      <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" alt="Visitor Count" />
-    </div>
-    
+      
   </div>
 
 </div>
