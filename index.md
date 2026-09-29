@@ -1,9 +1,26 @@
-<!-- 1. 상단 방문자 카운터 영역 (캐시 무력화 스크립트 적용) -->
+<!-- 1. 상단 방문자 카운터 영역 (세션 스토리지 적용으로 순방문자 카운트 유도) -->
 <div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
   <img id="main-visitor-counter" 
        alt="Visitor Count" 
        style="height: 32px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
 </div>
+
+<script>
+  const counterImg = document.getElementById('main-visitor-counter');
+  const baseUrl = "https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat";
+
+  // 브라우저 세션(현재 창)에 방문 기록이 저장되어 있는지 확인
+  if (!sessionStorage.getItem('hasVisited')) {
+    // 1. 최초 접속 시: 캐시 무력화(시간값 추가)를 통해 카운터 서버를 호출하여 숫자를 1 증가시킴
+    counterImg.src = baseUrl + "&t=" + new Date().getTime();
+    
+    // 2. 브라우저에 방문 완료 상태를 기록 (브라우저 탭을 닫기 전까지 유지)
+    sessionStorage.setItem('hasVisited', 'true');
+  } else {
+    // 3. 새로고침 또는 재접속 시: 시간값 변수 없이 기본 주소만 요청하여 카운트 서버를 자극하지 않고 기존 캐시 이미지만 표시
+    counterImg.src = baseUrl;
+  }
+</script>
 
 <script>
   // 접속 시점의 밀리초 단위 시간값을 주소 끝에 강제로 붙여, 
