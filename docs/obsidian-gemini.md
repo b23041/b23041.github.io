@@ -3,6 +3,13 @@ layout: default
 title: 옵시디언 + 제미나이 CLI 연동 가이드
 ---
 
+<!-- 상단 방문자 카운터 (여기에 삽입합니다) -->
+<div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
+  <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" 
+       alt="Visitor Count" 
+       style="height: 32px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
+</div>
+
 # 옵시디언(Obsidian) + Gemini CLI 연동 가이드
 
 이 문서는 옵시디언(MD파일 정리) 환경에서 터미널을 열고, Google의 Gemini CLI를 호출하여 설계기준 등의 문서를 빠르게 검색하고 질의응답하는 환경을 구축하는 방법을 안내합니다.
