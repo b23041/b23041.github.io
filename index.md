@@ -2,7 +2,7 @@
 <div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
   <img src="https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat" 
        alt="Visitor Count" 
-       style="height: 28px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
+       style="height: 32px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
 </div>
 
 <!-- 2. 동영상 배너 영역 -->
