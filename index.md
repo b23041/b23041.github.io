@@ -9,12 +9,12 @@
 <script data-goatcounter="https://smart-civil-maintain.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-<script>                                                 
-  fetch('https://smart-civil-maintain.goatcounter.com/counter/TOTAL.json')
-    .then(r => r.json())
+<script>
+  fetch('https://smart-civil-maintain.goatcounter.com/counter/TOTAL.json?start=2020-01-01', { cache: 'no-store' })
+    .then(r => r.status === 404 ? { count: '0' } : r.json())
     .then(d => { document.getElementById('visitor-count').textContent = d.count; })
     .catch(() => { document.getElementById('visitor-count').textContent = '-'; });
-</script>   
+</script>
 
 <!-- 2. 동영상 배너 영역 -->
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; margin-bottom: 35px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); background-color: #0b253a;">
