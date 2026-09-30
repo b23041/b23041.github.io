@@ -10,10 +10,32 @@
         async src="//gc.zgo.at/count.js"></script>
 
 <script>
-  fetch('https://smart-civil-maintain.goatcounter.com/counter/TOTAL.json?start=2020-01-01', { cache: 'no-store' })
-    .then(r => r.status === 404 ? { count: '0' } : r.json())
-    .then(d => { document.getElementById('visitor-count').textContent = d.count; })
-    .catch(() => { document.getElementById('visitor-count').textContent = '-'; });
+  (function () {
+    var base = 'https://smart-civil-maintain.goatcounter.com/counter/TOTAL.json';
+    var el = document.getElementById('visitor-count');
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    var fmt = function (d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); };
+
+    var now = new Date();
+    var start = '2020-01-' + pad(now.getHours() + 1);          // 시간마다 바뀜 (2020-01-01 ~ 2020-01-24)
+    var end = new Date(now.getTime()); end.setDate(end.getDate() + 2);  // 날짜마다 바뀜 (이틀 뒤)
+
+    var hourlyUrl = base + '?start=' + start + '&end=' + fmt(end);
+    var backupUrl = base + '?start=2020-01-01';
+
+    function load(url) {
+      return fetch(url, { cache: 'no-store' }).then(function (r) {
+        if (r.status === 404) return { count: '0' };
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      });
+    }
+
+    load(hourlyUrl)
+      .catch(function () { return load(backupUrl); })   // 실패하면 기존 방식으로 재시도
+      .then(function (d) { el.textContent = d.count; })
+      .catch(function () { el.textContent = '-'; });
+  })();
 </script>
 
 <!-- 2. 동영상 배너 영역 -->
