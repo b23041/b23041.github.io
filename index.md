@@ -1,25 +1,19 @@
-<!-- 1. 상단 방문자 카운터 영역 (세션 스토리지 적용으로 순방문자 카운트 유도) -->
-<div style="display: flex; justify-content: center; align-items: center; margin: 10px 0 25px 0;">
-  <img id="main-visitor-counter" 
-       alt="Visitor Count" 
-       style="height: 32px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); border-radius: 4px;" />
+<!-- 1. 상단 방문자 카운터 (GoatCounter) -->
+<div style="display:flex; justify-content:center; margin:10px 0 25px 0;">
+  <span style="display:inline-flex; font:600 14px/1 sans-serif; border-radius:4px; overflow:hidden; box-shadow:0 3px 8px rgba(0,0,0,0.12);">
+    <span style="background:#555; color:#fff; padding:8px 10px;">Visitor</span>
+    <span id="visitor-count" style="background:#0366d6; color:#fff; padding:8px 10px;">…</span>
+  </span>
 </div>
 
-<script>
-  const counterImg = document.getElementById('main-visitor-counter');
-  const baseUrl = "https://komarev.com/ghpvc/?username=smart-civil-maintain&label=Visitor&color=0366d6&style=flat";
+<script data-goatcounter="https://smart-civil-maintain.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
-  // 브라우저 세션(현재 창)에 방문 기록이 저장되어 있는지 확인
-  if (!sessionStorage.getItem('hasVisited')) {
-    // 1. 최초 접속 시: 캐시 무력화(시간값 추가)를 통해 카운터 서버를 호출하여 숫자를 1 증가시킴
-    counterImg.src = baseUrl + "&t=" + new Date().getTime();
-    
-    // 2. 브라우저에 방문 완료 상태를 기록 (브라우저 탭을 닫기 전까지 유지)
-    sessionStorage.setItem('hasVisited', 'true');
-  } else {
-    // 3. 새로고침 또는 재접속 시: 시간값 변수 없이 기본 주소만 요청하여 카운트 서버를 자극하지 않고 기존 캐시 이미지만 표시
-    counterImg.src = baseUrl;
-  }
+<script>
+  fetch('https://smart-civil-maintain.goatcounter.com/counter/TOTAL.json')
+    .then(r => r.json())
+    .then(d => { document.getElementById('visitor-count').textContent = d.count; })
+    .catch(() => { document.getElementById('visitor-count').textContent = '-'; });
 </script>
 
 <!-- 2. 동영상 배너 영역 -->
